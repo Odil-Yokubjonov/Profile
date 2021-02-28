@@ -1,0 +1,167 @@
+*,
+::after,
+::before {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+     -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    font-family:'Dancing Script', cursive;
+    font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+p {
+    color: #350b40;
+}
+p {
+    font-size: 25px;
+}
+h3 {
+    font-size: 35px;
+}
+h2 {
+    font-size: 45px;
+}
+header {
+    background-color: #bbdfc8;
+}
+.header__logo{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+    display: inline-block;
+    width: 120px;
+    /* line-height: 100%; */
+    
+}
+.header__logo a{
+    font-size: 50px;
+    text-decoration: none;
+    font-family:'Dancing Script', cursive;
+    font-weight: 800;
+    color: #03506f;
+    display: inline-block;
+    margin-left: 80px;
+}
+.header__nav{
+    list-style-type: none;
+    margin-left: -4px;
+    display: inline-block;
+    width: calc(100% - 120px);
+    text-align: right;
+    /* line-height: 100%; */
+    position: relative;
+    bottom: 30px;
+    
+   }
+.header__nav li{
+    display: inline-block;
+    
+}
+
+
+.header__nav li:not(:last-child){
+    margin-right: 30px;
+}
+.header__nav a{
+    text-decoration: none;
+    color: #03506f;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+   
+ }
+
+
+.top-container
+h1 {
+    width: max-content;
+    margin: 0 auto;
+    font-size: 60px;
+    
+}
+.top-container p {
+   margin: 0 auto;
+   width: max-content;
+   font-size: 30px;
+  
+}
+
+.cloud1 {
+    position: relative;
+    left: 900px;
+    top: 50px;
+}
+.cloud2 {
+    position: relative;
+    left: 200px;
+    top: -50px;
+}
+.mountain {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    bottom: 100px;
+    
+}
+/* Middle part */
+.middle-container {
+        text-align: center;
+        font-family:'Dancing Script', cursive;
+        margin: 50px 0;
+}
+.middle-container img {
+    margin: 20px 0;
+}
+hr {
+    margin: 50px auto;
+    width: 30%;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    color: #eb5e0b;
+}
+.profile img,
+.skill-row img {
+    width: 300px;
+    height: 300px;
+}
+.contact-me a{
+    text-decoration: none;
+}
+
+
+
+/* Bottom part */
+.bottom-container {
+      text-align: center;
+      font-family:'Dancing Script', cursive;
+      margin-top: 50px;
+}
+ .contact-me a {
+     line-height: 50px;
+     font-size: 30px;
+     color: #350b40;
+ }
+ .contact-me a:hover {
+     background-color: orangered;
+     color: #ffffff;
+ }
+
+.fab.fa-facebook,
+.fab.fa-telegram,
+.fab.fa-instagram {
+    color:  #eb5e0b;
+    margin: 0 30px 10px 0;
+}
